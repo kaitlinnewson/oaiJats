@@ -18,4 +18,5 @@ if not schematron.validate(doc):
     sys.exit(1);
 else:
     # Valid
+    print("Successfully validated")
     sys.exit(0);
